@@ -1,0 +1,60 @@
+*{
+	padding:0;
+	margin:0;
+}
+.container{
+	display:flex;
+	gap:20px;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+
+.container .box{
+	padding:20px 20px;
+	box-shadow:0px 4px 15px rgba(0,0,0,0.3);
+	width:300px;
+	height:auto;
+	border-radius:10px;
+}
+.container .box h2{
+	text-align:center;
+	padding:10px 0px;
+	background:gray;
+	color:white;
+	margin-bottom:10px;
+}
+.container .box h3{
+		text-align:center;
+	padding:10px 0px;
+	margin-bottom:10px;
+}
+.container .box ul{
+	list-style:none;
+	
+}
+.container .box ul li{
+	line-height:26px;
+}
+.container .box ul li .fa{
+	padding-right:8px;
+	color:gray;
+}
+.container .box .btn{
+	text-align:center;
+	display:block;
+}
+.container .box .btn button{
+	margin-top:20px;
+	
+	padding:8px 10px;
+	border:none;
+	outline:none;
+	background:gray;
+	color:white;
+	transition:0.3s;
+	
+}
+
+.container .box .btn button:hover{
+	background:black;
+}
